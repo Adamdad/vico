@@ -37,9 +37,9 @@ National University of Singapore
 ```shell
 export PYTHONPATH="$PWD"
 python videocrafterv2_vico.py \
---prompts XXX \
---unet_path $PATH_TO_VIDEOCRAFTERV2 \
---attribution_mode "latent_attention_flow_st_soft" 
+    --prompts XXX \
+    --unet_path $PATH_TO_VIDEOCRAFTERV2 \
+    --attribution_mode "latent_attention_flow_st_soft" 
 ```
 
 # 📝 Changelog 
