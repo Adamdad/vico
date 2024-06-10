@@ -18,8 +18,8 @@ National University of Singapore
 # Results
 | Prompt | Baseline | +Vico |
 | --- |  --- |  --- | 
-| A crab DJing at a beach party during sunset. | | |
-| A falcon as a messenger in a sprawling medieval city. | | |
+| A crab DJing at a beach party during sunset. |![crab_base](static/crab_base.gif) |![crab_flow](static/crab_flow.gif) |
+| A falcon as a messenger in a sprawling medieval city. | ![fac_base](static/fac_base.gif)| ![fac_flow](static/fac_flow.gif) |
 
 # Installation
 - Enviroments
