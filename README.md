@@ -1,4 +1,12 @@
-# Vico: Compositional Video Generation as Flow Equalization
+# 🌊 Vico: Compositional Video Generation as Flow Equalization 🌊
+
+<div style="text-align: center;">
+
+![alt text](static/image.png)
+`All roads lead to Rome!`
+
+</div>
+
 This reposioty contains our official implementation for **Vico**. Vico provides a unified solution for compositional video generation by equalizing the information flow of text tokens.
 
 **Compositional Video Generation as Flow Equalization**
@@ -18,8 +26,9 @@ National University of Singapore
 # Results
 | Prompt | Baseline | +Vico |
 | --- |  --- |  --- | 
-| A crab DJing at a beach party during sunset. |![crab_base](static/crab_base.gif) |![crab_flow](static/crab_flow.gif) |
-| A falcon as a messenger in a sprawling medieval city. | ![fac_base](static/fac_base.gif)| ![fac_flow](static/fac_flow.gif) |
+| A **crab** **DJing** at a **beach** party during sunset. |![crab_base](static/crab_base.gif) |![crab_flow](static/crab_flow.gif) |
+| A **falcon** as a **messenger** in a sprawling **medieval city**. | ![fac_base](static/fac_base.gif)| ![fac_flow](static/fac_flow.gif) |
+| A confused **panda** in **calculus class**. | ![](static/panda_base.gif)|![](static/panda_flow.gif) |
 
 # Installation
 - Enviroments
@@ -43,4 +52,22 @@ python videocrafterv2_vico.py \
 ```
 
 # 📝 Changelog 
-- [2024.04.05]: Release arxiv paper and code for Vico on Videocrafterv2.
+- **[2024.04.05]**: Release arxiv paper and code for Vico on Videocrafterv2.
+
+## Acknowledgement
+
+We are mostly inspired by Attend&Excite for text-to-image generation. 
+We thank the valuable disscussion with [@FlorinShum](https://github.com/FlorinShum).
+
+## Citation
+
+```bibtex
+@misc{yang2024vico,
+      title={Compositional Video Generation as Flow Equalization, 
+      author={Xingyi Yang and Xinchao Wang},
+      year={2024},
+      eprint={2404.06091},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
