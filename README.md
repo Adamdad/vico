@@ -1,4 +1,4 @@
-# Vico
+# Vico: Compositional Video Generation as Flow Equalization
 This reposioty contains our official implementation for **Vico**. Vico provides a unified solution for compositional video generation by equalizing the information flow of text tokens.
 
 **Compositional Video Generation as Flow Equalization**
@@ -10,8 +10,7 @@ Xingyi Yang, Xinchao Wang
 National University of Singapore
 
 
-
-![pipeline](assets/pipeline.jpg)
+![pipeline](https://adamdad.github.io/vico/static/images/teaser.jpg)
 
 
 > We introduce Vico, a generic framework for compositional video generation that explicitly ensures all concepts are represented properly. At its core, Vico analyzes how input tokens influence the generated video, and adjusts the model to prevent any single concept from dominating. We apply our method to multiple diffusion-based video models for compositional T2V and video editing. Empirical results demonstrate that our framework significantly enhances the compositional richness and accuracy of the generated videos.
