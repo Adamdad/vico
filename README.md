@@ -15,21 +15,32 @@ National University of Singapore
 
 > We introduce Vico, a generic framework for compositional video generation that explicitly ensures all concepts are represented properly. At its core, Vico analyzes how input tokens influence the generated video, and adjusts the model to prevent any single concept from dominating. We apply our method to multiple diffusion-based video models for compositional T2V and video editing. Empirical results demonstrate that our framework significantly enhances the compositional richness and accuracy of the generated videos.
 
+# Results
+| Prompt | Baseline | +Vico |
+| --- |  --- |  --- | 
+| A crab DJing at a beach party during sunset. | | |
+| A falcon as a messenger in a sprawling medieval city. | | |
+
 # Installation
 - Enviroments
     ```shell
     pip install diffusers==0.26.3
     ```
 
-- For VideoCrafterv2, it is recommanded to download the `diffusers` checkpoints first on (`adamdad/videocrafterv2_diffusers`)[https://huggingface.co/adamdad/videocrafterv2_diffusers]
+- For VideoCrafterv2, it is recommanded to download the `diffusers` checkpoints first on (`adamdad/videocrafterv2_diffusers`)[https://huggingface.co/adamdad/videocrafterv2_diffusers]. I do it by convering the official checkpoint to the diffuser format.
     ```shell
     git lfs install
     git clone https://huggingface.co/adamdad/videocrafterv2_diffusers
     ```
 
-
 # Usage
 ```shell
 export PYTHONPATH="$PWD"
-python videocrafterv2_vico.py --prompts XXX --attribution_mode "latent_attention_flow_st_soft" 
+python videocrafterv2_vico.py \
+--prompts XXX \
+--unet_path $PATH_TO_VIDEOCRAFTERV2 \
+--attribution_mode "latent_attention_flow_st_soft" 
 ```
+
+# 📝 Changelog 
+- [2024.04.05]: Release arxiv paper and code for Vico on Videocrafterv2.
