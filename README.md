@@ -1,11 +1,8 @@
 # 🌊 Vico: Compositional Video Generation as Flow Equalization 🌊
 
-<div style="text-align: center;">
-
-![alt text](static/image.png)
-`All roads lead to Rome!`
-
-</div>
+<p style="font-family: 'Indie Flower', cursive;" align="center">
+All roads lead to Rome!
+</p>
 
 This reposioty contains our official implementation for **Vico**. Vico provides a unified solution for compositional video generation by equalizing the information flow of text tokens.
 
