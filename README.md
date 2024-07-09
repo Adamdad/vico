@@ -8,7 +8,7 @@ This reposioty contains our official implementation for **Vico**. Vico provides 
 
 **Compositional Video Generation as Flow Equalization**
 
-🥯[[Project Page](https://adamdad.github.io/vico/)] 📝[[Paper](https://arxiv.org/abs/2404.06091)] </>[[code](https://github.com/Adamdad/vico)]
+🥯[[Project Page](https://adamdad.github.io/vico/)] 📝[[Paper](https://arxiv.org/abs/2407.06182)] </>[[code](https://github.com/Adamdad/vico)]
 
 Xingyi Yang, Xinchao Wang
 
