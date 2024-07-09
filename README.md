@@ -59,12 +59,12 @@ We thank the valuable disscussion with [@Yuanshi9815](https://github.com/Yuanshi
 ## Citation
 
 ```bibtex
-@misc{yang2024vico,
-      title={Compositional Video Generation as Flow Equalization, 
-      author={Xingyi Yang and Xinchao Wang},
-      year={2024},
-      eprint={2404.06091},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@misc{yang2024compositional,
+    title={Compositional Video Generation as Flow Equalization},
+    author={Xingyi Yang and Xinchao Wang},
+    year={2024},
+    eprint={2407.06182},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
 }
 ```
