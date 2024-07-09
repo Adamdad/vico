@@ -49,12 +49,12 @@ python videocrafterv2_vico.py \
 ```
 
 # 📝 Changelog 
-- **[2024.04.05]**: Release arxiv paper and code for Vico on Videocrafterv2.
+- **[2024.07.09]**: Release arxiv paper and code for Vico on Videocrafterv2.
 
 ## Acknowledgement
 
-We are mostly inspired by Attend&Excite for text-to-image generation. 
-We thank the valuable disscussion with [@FlorinShum](https://github.com/FlorinShum).
+We are mostly inspired by [Attend&Excite](https://github.com/yuval-alaluf/Attend-and-Excite) for text-to-image generation. 
+We thank the valuable disscussion with [@Yuanshi9815](https://github.com/Yuanshi9815).
 
 ## Citation
 
