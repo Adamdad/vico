@@ -58,7 +58,7 @@ pipe.unet = UNet3DVideoCrafterConditionModel.from_pretrained(
 pipe.scheduler = DPMSolverMultistepScheduler.from_config(
     pipe.scheduler.config, use_karras=True, algorithm_type="sde-dpmsolver++"
 )
-pipe.enable_model_cpu_offload()
+# pipe.enable_model_cpu_offload()
 pipe = pipe.to("cuda")
 
 attn_res = (int(args.H / 32), int(args.W / 32))
