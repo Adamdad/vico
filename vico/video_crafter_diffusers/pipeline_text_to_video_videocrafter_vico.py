@@ -524,7 +524,7 @@ class TextToVideoVideoCrafterAttributetoComposePipeline(DiffusionPipeline, Textu
                     encoder_hidden_states=prompt_embeds,
                     cross_attention_kwargs=cross_attention_kwargs,
                 ).sample
-                # torch.cuda.empty_cache()
+                torch.cuda.empty_cache()
                 self.unet.zero_grad()
                 loss = self.attribution.compute_loss(index)
                 
