@@ -37,10 +37,12 @@ parser.add_argument("--attribute_mode", type=str, default="latent_attention_flow
 parser.add_argument(
     "--unet_path",
     type=str,
-    default="PATH-TO/videocrafterv2_diffusers",
+    default="/scratch/local/ssd/xingyi/cache/videocrafterv2_diffusers",
 )
 parser.add_argument("--output_video_path", type=str, default="./video_576_car_dog.mp4")
 args = parser.parse_args()
+
+
 
 generator = torch.Generator("cuda").manual_seed(args.seed)
 random.seed(args.seed)
