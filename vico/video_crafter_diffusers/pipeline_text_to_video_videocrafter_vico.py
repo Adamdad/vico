@@ -465,7 +465,6 @@ class TextToVideoVideoCrafterAttributetoComposePipeline(DiffusionPipeline, Textu
         return latents
     
     @torch.enable_grad()
-    # @torch.no_grad()
     def attribute_and_update(
         self,
         prompt_embeds: torch.FloatTensor,

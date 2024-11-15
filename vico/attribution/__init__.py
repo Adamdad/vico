@@ -20,6 +20,9 @@ def get_attributer(attribution_mode, unet, device, attn_res, image_size=None, te
     elif attribution_mode in ["latent_attention_flow_st_soft"]:
         print("............ Using AttentionSTFlowAttribution Soft............")
         return AttentionSTFlowAttribution(unet, device, attn_res, temporal_res, mode = 'flow_soft')
+    elif attribution_mode in ["cogvideox_attention_flow_st_soft"]:
+        print("............ Using AttentionSTFlowAttribution Soft............")
+        return AttentionSTFlowAttribution(unet, device, attn_res, temporal_res, mode = 'flow_soft')
     elif attribution_mode == "attention_vis":
         print("............ Using AttentionVisualizer ............")
         return AttentionVisualizer(unet, device, image_size=image_size)
